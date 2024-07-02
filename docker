@@ -19,3 +19,6 @@ sudo systemctl enable docker
 
 # Start Docker service in case it's not running
 sudo systemctl start docker
+
+# Giving permission
+sudo chmod 777 /var/run/docker.sock
